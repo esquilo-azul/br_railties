@@ -1,1 +1,1 @@
-
+//= require active_scaffold
