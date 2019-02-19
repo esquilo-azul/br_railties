@@ -16,4 +16,6 @@ Gem::Specification.new do |s|
   s.metadata    = { 'source_code_uri' => 'https://github.com/esquilo-azul/br_railties' }
 
   s.files = Dir['{app,config,lib}/**/*', 'Gemfile', 'README.rdoc']
+
+  s.add_dependency 'railties'
 end
