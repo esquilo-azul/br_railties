@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class CreateBrRailtiesFederalUnits < ActiveRecord::Migration
   def change
     create_table :br_railties_federal_units do |t|
