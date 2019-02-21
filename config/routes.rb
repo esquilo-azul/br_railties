@@ -2,4 +2,5 @@
 
 BrRailties::Engine.routes.draw do
   resources(:federal_units) { as_routes }
+  resources(:municipalities) { as_routes }
 end
