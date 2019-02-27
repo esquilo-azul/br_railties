@@ -6,5 +6,6 @@ module BrRailties
 
     validates :federal_unit, presence: true
     validates :name, presence: true, uniqueness: { case_sensitive: false, scope: [:federal_unit] }
+    validates :ibge_code, presence: true, uniqueness: true, numericality: { greater_than: 0 }
   end
 end
