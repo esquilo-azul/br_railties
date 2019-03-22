@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
   s.license     = 'MIT'
   s.metadata    = { 'source_code_uri' => 'https://github.com/esquilo-azul/br_railties' }
 
-  s.files = Dir['{app,config,lib}/**/*', 'Gemfile', 'README.rdoc']
+  s.files = Dir['{app,config,db,lib}/**/*', 'Gemfile', 'README.rdoc']
 
   s.add_dependency 'active_scaffold'
   s.add_dependency 'railties', '>= 4.0.0', '< 5.0.0'
