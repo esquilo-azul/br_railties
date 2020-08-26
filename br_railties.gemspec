@@ -18,6 +18,6 @@ Gem::Specification.new do |s|
   s.files = Dir['{app,config,db,lib}/**/*', 'Gemfile', 'README.rdoc']
 
   s.add_dependency 'active_scaffold'
-  s.add_dependency 'railties', '>= 4.0.0', '< 5.0.0'
+  s.add_dependency 'railties', '>= 4.2.11.3'
   s.add_dependency 'recordselect', '~> 3.10'
 end
