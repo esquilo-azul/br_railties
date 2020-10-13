@@ -1,6 +1,8 @@
 # frozen_string_literal: true
 
-class CreateBrRailtiesMunicipalities < ActiveRecord::Migration
+class CreateBrRailtiesMunicipalities < (
+    Rails.version < '5' ? ActiveRecord::Migration : ActiveRecord::Migration[4.2]
+  )
   def change
     create_table :br_railties_municipalities do |t|
       t.string :name
