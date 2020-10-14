@@ -20,4 +20,6 @@ Gem::Specification.new do |s|
   s.add_dependency 'active_scaffold'
   s.add_dependency 'railties', '>= 4.2.11.3'
   s.add_dependency 'recordselect', '~> 3.10'
+
+  s.add_development_dependency 'eac_ruby_gem_support', '~> 0.1', '>= 0.1.2'
 end
