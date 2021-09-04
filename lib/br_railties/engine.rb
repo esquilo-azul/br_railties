@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+require 'eac_active_scaffold'
+
 module BrRailties
   class Engine < ::Rails::Engine
     isolate_namespace BrRailties
