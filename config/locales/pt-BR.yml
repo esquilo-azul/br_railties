@@ -1,0 +1,7 @@
+pt-BR:
+  eac_rails_utils:
+    menus:
+      root:
+        admin:
+          br_railties:
+            __self: Brasilidades
