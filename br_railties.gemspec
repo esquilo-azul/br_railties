@@ -16,6 +16,7 @@ Gem::Specification.new do |s|
   s.metadata    = { 'source_code_uri' => 'https://github.com/esquilo-azul/br_railties' }
 
   s.files = Dir['{app,config,db,lib}/**/*', 'Gemfile', 'README.rdoc']
+  s.required_ruby_version = '>= 2.4'
 
   s.add_dependency 'cpf_cnpj'
   s.add_dependency 'eac_active_scaffold', '~> 0.6', '>= 0.6.1'
