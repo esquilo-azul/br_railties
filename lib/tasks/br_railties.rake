@@ -7,11 +7,6 @@ namespace :br_railties do
       task federal_units: :environment do |_t, _args|
         ::BrRailties::Ibge::Import::FederalUnits.new
       end
-
-      desc 'Importa municípios do cadastro do IBGE.'
-      task municipalities: :environment do |_t, _args|
-        ::BrRailties::Ibge::Import::Municipalities.new
-      end
     end
   end
 end
