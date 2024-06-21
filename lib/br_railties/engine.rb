@@ -1,15 +1,11 @@
 # frozen_string_literal: true
 
 require 'eac_active_scaffold'
+require 'eac_rails_utils/engine_helper'
 
 module BrRailties
   class Engine < ::Rails::Engine
     isolate_namespace BrRailties
-
-    initializer :append_migrations do |app|
-      config.paths['db/migrate'].expanded.each do |expanded_path|
-        app.config.paths['db/migrate'] << expanded_path
-      end
-    end
+    include ::EacRailsUtils::EngineHelper
   end
 end
