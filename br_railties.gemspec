@@ -22,7 +22,6 @@ Gem::Specification.new do |s|
   s.add_dependency 'eac_active_scaffold', '~> 0.6', '>= 0.6.1'
   s.add_dependency 'eac_rails_utils', '~> 0.24'
   s.add_dependency 'railties', '~> 6.1.7', '>= 6.1.7.8'
-  s.add_dependency 'recordselect', '~> 3.10', '>= 3.10.9'
 
   s.add_development_dependency 'eac_rails_gem_support', '~> 0.10', '>= 0.10.1'
 end

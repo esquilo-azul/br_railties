@@ -1,7 +1,5 @@
 # frozen_string_literal: true
 
-require 'recordselect'
-
 require 'br_railties/engine'
 
 module BrRailties
