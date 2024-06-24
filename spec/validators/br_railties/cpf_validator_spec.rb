@@ -1,16 +1,6 @@
 # frozen_string_literal: true
 
 RSpec.describe(BrRailties::CpfValidator) do
-  include_examples 'active_model_attribute_validator', [
-    '85630275305',
-    '66244374487',
-    nil
-  ], [
-    '',
-    ' ',
-    'abc',
-    '856.302.753-05',
-    '662.443.744-87',
-    '85630275304'
-  ]
+  include_examples 'active_model_attribute_validator', SpecHelper::Cpf::VALID_VALUES,
+                   SpecHelper::Cpf::INVALID_VALUES
 end
