@@ -20,7 +20,6 @@ Gem::Specification.new do |s|
 
   s.add_dependency 'cpf_cnpj', '~> 1.1'
   s.add_dependency 'eac_rails_utils', '~> 0.28', '>= 0.28.1'
-  s.add_dependency 'railties', '~> 6.1.7', '>= 6.1.7.8'
 
   s.add_development_dependency 'eac_rails_gem_support', '~> 0.12', '>= 0.12.2'
 end
