@@ -19,7 +19,7 @@ Gem::Specification.new do |s|
   s.required_ruby_version = '>= 3.2'
 
   s.add_dependency 'cpf_cnpj', '~> 1.1'
-  s.add_dependency 'eac_rails_utils', '~> 0.28', '>= 0.28.1'
+  s.add_dependency 'eac_rails_utils', '~> 0.29', '>= 0.29.1'
 
-  s.add_development_dependency 'eac_rails_gem_support', '~> 0.12', '>= 0.12.2'
+  s.add_development_dependency 'eac_rails_gem_support', '~> 0.12', '>= 0.12.3'
 end
